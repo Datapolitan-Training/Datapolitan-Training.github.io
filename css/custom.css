@@ -1,0 +1,29 @@
+p {
+    text-align:justify;
+    font-size:1.25em;
+}
+
+div.image {
+    width:160px;
+    margin:0;
+}
+
+.img-text {
+    width:940px;
+    float:right;
+}
+
+footer {
+	font-size: 0.85em;
+	padding: 1em 0em;
+	text-align:center;
+}
+
+#contact-info {
+	text-align: center;
+	align: top;
+}
+
+.mail-icon {
+	vertical-align:top;
+}
