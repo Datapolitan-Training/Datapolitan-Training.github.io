@@ -1,6 +1,41 @@
+body {
+	background-color: #f2efda;
+	font-family: 'Rubik';
+}
+
+h1 {
+  font-family: 'Oswald';
+  font-weight: medium;
+  color:#e77b4e;
+  text-transform: uppercase;
+  margin: 12px 5px 10px 5px;
+  letter-spacing:0.025em;
+  /*font-size: 45px;*/
+  text-shadow: none;
+}
+
+/*h2, h3, h4, h5, h6 {
+  font-family: 'Oswald';
+  font-weight: 200;
+  color:#4f655a;
+  margin: 20px 0 20px 0;
+}*/
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Oswald';
+  font-weight: medium;
+  color:#000000;
+  margin: 15px 5px 15px 5px;
+  /*text-transform: uppercase;*/
+  letter-spacing:0.035em;
+  text-shadow: none;
+}
+
 p {
     text-align:justify;
     font-size:1.25em;
+    font-weight: 400;
+ 	color:#000000;
 }
 
 div.image {
@@ -26,4 +61,20 @@ footer {
 
 .mail-icon {
 	vertical-align:top;
+}
+
+a:visited, a:link, a:active { 
+  text-decoration: none; 
+  color: blue;
+  /*text-transform: lowercase;*/
+}
+a:hover {
+  text-decoration: underline; 
+/*  text-transform: lowercase;*/
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
